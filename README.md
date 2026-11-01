@@ -6,11 +6,12 @@ Complément pour la carte https://github.com/hacf-fr/lovelace-meteofrance-weathe
 - Ajout de nouveaux jeux d'icônes en complément de l'original sur HACF.
 - Différentiation des icônes sur certains arguments sur tous les jeux pour la compatibilitée de la carte météo france (Brouillard, Orage pluvieux, Pluie-neige, venteux).
 - Icones fixes, améliore la compatibilitée sur Google Nest et moins gourments en ressources.
+- Icônes allégées (novembre 2026) : environ 70 % plus légères, sans l'ombre floutée qui faisait recalculer les icônes animées à chaque image, et le brouillard des jeux fixes ne bouge plus. Nettoyage fait avec l'aide d'une IA, rendu comparé au pixel dans Chromium ; la recette est dans `outils/`.
 
 
 ## Installation:
 
-1/ Ajouter les dossiers avec les nouvelles icones disponible dans le dossier "disp" dans le dossier "/config/www/community/lovelace-meteofrance-weather-card/" de votre Home Assitant par ftp.
+1/ Ajouter les dossiers avec les nouvelles icones disponible dans le dossier "dist" dans le dossier "/config/www/community/lovelace-meteofrance-weather-card/" de votre Home Assitant par ftp.
 
 2/ Choisissez votre jeux d'icones:
 
@@ -47,7 +48,6 @@ Icônes fixes blancs (variation 01):
 ![](/dist/icons/windy-night.svg)
 ![](/dist/icons/windy.svg)
 ![](/dist/icons/fog.svg)
-![](/dist/icons/fog1.svg)
 
 
 ![](/dist/icons/cloudy.svg)
